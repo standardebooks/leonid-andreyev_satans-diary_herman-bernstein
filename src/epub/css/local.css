@@ -6,12 +6,12 @@ footer{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:diary-entry"] h2{
+[epub|type~="z3998:diary-entry"] > header{
 	text-align: right;
-	font-size: 1em;
-	font-weight: normal;
-	font-variant: normal;
-	margin-bottom: 0;
+}
+
+[epub|type~="z3998:diary-entry"] h2{
+	display: none;
 }
 
 [epub|type~="z3998:diary-entry"] > header + p{
