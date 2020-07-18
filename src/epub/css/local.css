@@ -17,3 +17,7 @@ footer{
 [epub|type~="z3998:diary-entry"] > header + p{
 	margin-top: 0;
 }
+
+#chapter-12 p:last-child{
+	margin-top: 0.5em;
+}
