@@ -18,6 +18,10 @@ footer{
 	margin-top: 0;
 }
 
+.signature{
+	font-variant: small-caps;
+}
+
 #chapter-12 p:last-child{
 	margin-top: 0.5em;
 }
