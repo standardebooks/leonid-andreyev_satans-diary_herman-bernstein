@@ -45,14 +45,15 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008105339</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Satan’s visit to Earth in the form of an American billionaire forces him to reevaluate mankind.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Satan has returned to Earth for a sightseeing visit in the form of the American billionaire Henry Wondergood. Accompanied by his faithful demon butler Toppi they head for Rome, but are sidetracked by an unforeseen accident and end up at the home of the inscrutable Thomas Magnus and his divine daughter Maria. As Satan begins to discover the meaning of being a man, conversely the satanic aspects of mankind becomes ever more apparent to him.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/leonid-andreyev"&gt;Leonid Andreyev&lt;/a&gt; was a Russian author from the beginning of the twentieth century, famous mostly for his plays and &lt;a href="https://standardebooks.org/ebooks/leonid-andreyev/short-fiction/herman-bernstein_alexandra-linden_l-a-magnus_k-walter_w-h-lowe_the-russian-review_archibald-j-wolfe_john-cournos_r-s-townsend_maurice-magnus"&gt;Short Fiction&lt;/a&gt;, and often portrayed as Russia’s equivalent to Edgar Allan Poe. &lt;i&gt;Satan’s Diary&lt;/i&gt; was his last work, completed just a few days before his death in 1919. This edition was translated by his previous collaborator Herman Bernstein and published in 1920.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/42665</dc:source>
 		<dc:source>https://archive.org/details/satansdiary00andruoft</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">The chapter h2s are an idealised form of the datelines, and are hidden by default.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/leonid-andreyev_satans-diary_herman-bernstein</meta>
@@ -76,10 +77,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n80136311</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Dianna Adair</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Adair, Dianna</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Richard Hulse</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Hulse, Richard</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
