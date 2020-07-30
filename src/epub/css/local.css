@@ -6,12 +6,12 @@ footer{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:diary-entry"] > header{
-	text-align: right;
+[epub|type~="z3998:diary-entry"] + [epub|type~="z3998:diary-entry"]{
+	margin-top: 1em;
 }
 
-[epub|type~="z3998:diary-entry"] h2{
-	display: none;
+[epub|type~="z3998:diary-entry"] > header{
+	text-align: right;
 }
 
 [epub|type~="z3998:diary-entry"] > header + p{
@@ -22,6 +22,6 @@ footer{
 	font-variant: small-caps;
 }
 
-#chapter-12 p:last-child{
+#entry-12 p:last-child{
 	margin-top: 0.5em;
 }
