@@ -53,7 +53,6 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/42665</dc:source>
 		<dc:source>https://archive.org/details/satansdiary00andruoft</dc:source>
-		<meta property="se:production-notes">The chapter h2s are an idealised form of the datelines, and are hidden by default.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/leonid-andreyev_satans-diary_herman-bernstein</meta>
