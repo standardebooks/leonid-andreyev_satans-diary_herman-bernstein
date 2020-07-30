@@ -47,8 +47,8 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">Satan’s visit to Earth in the form of an American billionaire forces him to reevaluate mankind.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Satan has returned to Earth for a sightseeing visit in the form of the American billionaire Henry Wondergood. Accompanied by his faithful demon butler Toppi they head for Rome, but are sidetracked by an unforeseen accident and end up at the home of the inscrutable Thomas Magnus and his divine daughter Maria. As Satan begins to discover the meaning of being a man, conversely the satanic aspects of mankind becomes ever more apparent to him.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/leonid-andreyev"&gt;Leonid Andreyev&lt;/a&gt; was a Russian author from the beginning of the twentieth century, famous mostly for his plays and &lt;a href="https://standardebooks.org/ebooks/leonid-andreyev/short-fiction/herman-bernstein_alexandra-linden_l-a-magnus_k-walter_w-h-lowe_the-russian-review_archibald-j-wolfe_john-cournos_r-s-townsend_maurice-magnus"&gt;Short Fiction&lt;/a&gt;, and often portrayed as Russia’s equivalent to Edgar Allan Poe. &lt;i&gt;Satan’s Diary&lt;/i&gt; was his last work, completed just a few days before his death in 1919. This edition was translated by his previous collaborator Herman Bernstein and published in 1920.&lt;/p&gt;
+			&lt;p&gt;Satan has returned to Earth for a sightseeing visit in the form of the American billionaire Henry Wondergood. Accompanied by his faithful demon butler Toppi they head for Rome, but are sidetracked by an unforeseen accident and end up at the home of the inscrutable Thomas Magnus and his divine daughter Maria. As Satan begins to discover the meaning of being a man, the satanic aspects of mankind becomes ever more apparent to him.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/leonid-andreyev"&gt;Leonid Andreyev&lt;/a&gt; was a Russian author active in the beginning of the twentieth century, famous mostly for his plays and &lt;a href="https://standardebooks.org/ebooks/leonid-andreyev/short-fiction/herman-bernstein_alexandra-linden_l-a-magnus_k-walter_w-h-lowe_the-russian-review_archibald-j-wolfe_john-cournos_r-s-townsend_maurice-magnus"&gt;short fiction&lt;/a&gt;, and often portrayed as Russia’s equivalent to Edgar Allan Poe. &lt;i&gt;Satan’s Diary&lt;/i&gt; was his last work, completed just a few days before his death in 1919. This edition was translated by his previous collaborator Herman Bernstein and published in 1920.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/42665</dc:source>
@@ -94,6 +94,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
