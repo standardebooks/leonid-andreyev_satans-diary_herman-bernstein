@@ -18,6 +18,11 @@ footer{
 	margin-top: 0;
 }
 
+[epub|type~="z3998:diary-entry"] ol{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .signature{
 	font-variant: small-caps;
 }
