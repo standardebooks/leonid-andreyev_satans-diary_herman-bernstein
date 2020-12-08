@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="content.opf">
+		<ignore>
+			<code>m-064</code>
+			<reason>Matched text is not an actual book title.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
