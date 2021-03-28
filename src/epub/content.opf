@@ -73,7 +73,7 @@
 		<meta property="file-as" refines="#artist">Vrubel, Mikhail</meta>
 		<meta property="alternate-script" refines="#artist" xml:lang="ru">Михаил Александрович Врубель</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Mikhail_Vrubel</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n80136311</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80136311</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Dianna Adair</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Adair, Dianna</meta>
