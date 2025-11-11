@@ -68,6 +68,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Herman_Bernstein</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/no00070836</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Mikhail Vrubel</dc:contributor>
 		<meta property="file-as" refines="#artist">Vrubel, Mikhail</meta>
 		<meta property="alternate-script" refines="#artist" xml:lang="ru">Михаил Александрович Врубель</meta>
