@@ -53,7 +53,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/42665</dc:source>
 		<dc:source>https://archive.org/details/satansdiary00andruoft</dc:source>
-		<meta property="se:word-count">60474</meta>
+		<meta property="se:word-count">60231</meta>
 		<meta property="se:reading-ease.flesch">73.68</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/leonid-andreyev_satans-diary_herman-bernstein</meta>
 		<dc:creator id="author">Leonid Andreyev</dc:creator>
