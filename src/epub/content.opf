@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/leonid-andreyev/satans-diary/herman-bernstein</dc:identifier>
 		<dc:date>2020-07-30T19:40:57Z</dc:date>
 		<meta property="dcterms:modified">2020-07-30T19:40:57Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -44,7 +45,7 @@
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008105339</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">Satan’s visit to Earth in the form of an American billionaire forces him to reevaluate mankind.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Satan has returned to Earth for a sightseeing visit in the form of the American billionaire Henry Wondergood. Accompanied by his faithful demon butler Toppi they head for Rome, but are sidetracked by an unforeseen accident and end up at the home of the inscrutable Thomas Magnus and his divine daughter Maria. As Satan begins to discover the meaning of being a man, the satanic aspects of mankind become ever more apparent to him.&lt;/p&gt;
@@ -53,27 +54,29 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/42665</dc:source>
 		<dc:source>https://archive.org/details/satansdiary00andruoft</dc:source>
-		<meta property="se:word-count">60231</meta>
-		<meta property="se:reading-ease.flesch">73.68</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/leonid-andreyev_satans-diary_herman-bernstein</meta>
+		<meta property="schema:wordCount">60231</meta>
+		<meta property="schema:educationalLevel">73.68</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/leonid-andreyev_satans-diary_herman-bernstein" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Leonid Andreyev</dc:creator>
 		<meta property="file-as" refines="#author">Andreyev, Leonid</meta>
 		<meta property="alternate-script" refines="#author" xml:lang="ru">Леони́д Никола́евич Андре́ев</meta>
-		<meta property="se:name.person.full-name" refines="#author">Leonid Nikolaievich Andreyev</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Leonid_Andreyev</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80040433</meta>
+		<meta property="schema:alternateName" refines="#author">Leonid Nikolaievich Andreyev</meta>
+		<link href="https://en.wikipedia.org/wiki/Leonid_Andreyev" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80040433.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Herman Bernstein</dc:contributor>
 		<meta property="file-as" refines="#translator">Bernstein, Herman</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Herman_Bernstein</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/no00070836</meta>
+		<link href="https://en.wikipedia.org/wiki/Herman_Bernstein" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no00070836.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Mikhail Vrubel</dc:contributor>
 		<meta property="file-as" refines="#artist">Vrubel, Mikhail</meta>
 		<meta property="alternate-script" refines="#artist" xml:lang="ru">Михаил Александрович Врубель</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Mikhail_Vrubel</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80136311</meta>
+		<link href="https://en.wikipedia.org/wiki/Mikhail_Vrubel" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80136311.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Dianna Adair</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Adair, Dianna</meta>
@@ -83,11 +86,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -96,7 +99,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
