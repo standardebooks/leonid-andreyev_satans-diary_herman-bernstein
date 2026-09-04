@@ -31,10 +31,10 @@
 		<dc:title id="title">Satan’s Diary</dc:title>
 		<meta property="file-as" refines="#title">Satan’s Diary</meta>
 		<dc:subject id="subject-1">Diary fiction</dc:subject>
-		<dc:subject id="subject-2">Devil -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Russian fiction -- Translations into English</dc:subject>
-		<dc:subject id="subject-4">Andreyev, Leonid, 1871-1919 -- Translations into English</dc:subject>
-		<dc:subject id="subject-5">Good and evil -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Devil--Fiction</dc:subject>
+		<dc:subject id="subject-3">Russian fiction--Translations into English</dc:subject>
+		<dc:subject id="subject-4">Andreyev, Leonid, 1871-1919--Translations into English</dc:subject>
+		<dc:subject id="subject-5">Good and evil--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh88007594</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
